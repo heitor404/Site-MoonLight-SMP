@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background-color: #220033; /* Roxo escuro */
+    color: #f3e9d2; /* Amarelo claro */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #f3e9d2;
+}
+
+.historia, .deuses, .jogar {
+    padding: 20px;
+    margin: 10px;
+    background-color: #440066; /* Roxo médio */
+    border-radius: 10px;
+}
+
+.deus {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+}
+
+.botao {
+    display: block;
+    background-color: #cc0000; /* Vermelho */
+    color: #f3e9d2;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.botao:hover {
+    background-color: #990000; /* Vermelho escuro */
+}
